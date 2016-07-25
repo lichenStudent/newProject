@@ -15,6 +15,7 @@
 		DB2F5EBB1D461D57005815D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB2F5EB91D461D57005815D7 /* LaunchScreen.storyboard */; };
 		DB2F5EC61D461D57005815D7 /* SoureTreeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB2F5EC51D461D57005815D7 /* SoureTreeTests.m */; };
 		DB2F5ED11D461D57005815D7 /* SoureTreeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB2F5ED01D461D57005815D7 /* SoureTreeUITests.m */; };
+		DB2F5EE01D461E67005815D7 /* NewVCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB2F5EDF1D461E67005815D7 /* NewVCViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		DB2F5ECC1D461D57005815D7 /* SoureTreeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoureTreeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB2F5ED01D461D57005815D7 /* SoureTreeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SoureTreeUITests.m; sourceTree = "<group>"; };
 		DB2F5ED21D461D57005815D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB2F5EDE1D461E67005815D7 /* NewVCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewVCViewController.h; sourceTree = "<group>"; };
+		DB2F5EDF1D461E67005815D7 /* NewVCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewVCViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				DB2F5EAF1D461D57005815D7 /* AppDelegate.m */,
 				DB2F5EB11D461D57005815D7 /* ViewController.h */,
 				DB2F5EB21D461D57005815D7 /* ViewController.m */,
+				DB2F5EDE1D461E67005815D7 /* NewVCViewController.h */,
+				DB2F5EDF1D461E67005815D7 /* NewVCViewController.m */,
 				DB2F5EB41D461D57005815D7 /* Main.storyboard */,
 				DB2F5EB71D461D57005815D7 /* Assets.xcassets */,
 				DB2F5EB91D461D57005815D7 /* LaunchScreen.storyboard */,
@@ -272,6 +277,7 @@
 			files = (
 				DB2F5EB31D461D57005815D7 /* ViewController.m in Sources */,
 				DB2F5EB01D461D57005815D7 /* AppDelegate.m in Sources */,
+				DB2F5EE01D461E67005815D7 /* NewVCViewController.m in Sources */,
 				DB2F5EAD1D461D57005815D7 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -496,6 +502,7 @@
 				DB2F5ED71D461D57005815D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DB2F5ED81D461D57005815D7 /* Build configuration list for PBXNativeTarget "SoureTreeTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +511,7 @@
 				DB2F5EDA1D461D57005815D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DB2F5EDB1D461D57005815D7 /* Build configuration list for PBXNativeTarget "SoureTreeUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +520,7 @@
 				DB2F5EDD1D461D57005815D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
