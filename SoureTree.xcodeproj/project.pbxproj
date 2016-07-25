@@ -16,6 +16,7 @@
 		DB2F5EC61D461D57005815D7 /* SoureTreeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB2F5EC51D461D57005815D7 /* SoureTreeTests.m */; };
 		DB2F5ED11D461D57005815D7 /* SoureTreeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB2F5ED01D461D57005815D7 /* SoureTreeUITests.m */; };
 		DB2F5EE01D461E67005815D7 /* NewVCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB2F5EDF1D461E67005815D7 /* NewVCViewController.m */; };
+		DB2F5EE31D46203C005815D7 /* StudentVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DB2F5EE21D46203C005815D7 /* StudentVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		DB2F5ED21D461D57005815D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DB2F5EDE1D461E67005815D7 /* NewVCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewVCViewController.h; sourceTree = "<group>"; };
 		DB2F5EDF1D461E67005815D7 /* NewVCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewVCViewController.m; sourceTree = "<group>"; };
+		DB2F5EE11D46203C005815D7 /* StudentVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StudentVC.h; sourceTree = "<group>"; };
+		DB2F5EE21D46203C005815D7 /* StudentVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StudentVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				DB2F5EB21D461D57005815D7 /* ViewController.m */,
 				DB2F5EDE1D461E67005815D7 /* NewVCViewController.h */,
 				DB2F5EDF1D461E67005815D7 /* NewVCViewController.m */,
+				DB2F5EE11D46203C005815D7 /* StudentVC.h */,
+				DB2F5EE21D46203C005815D7 /* StudentVC.m */,
 				DB2F5EB41D461D57005815D7 /* Main.storyboard */,
 				DB2F5EB71D461D57005815D7 /* Assets.xcassets */,
 				DB2F5EB91D461D57005815D7 /* LaunchScreen.storyboard */,
@@ -276,6 +281,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB2F5EB31D461D57005815D7 /* ViewController.m in Sources */,
+				DB2F5EE31D46203C005815D7 /* StudentVC.m in Sources */,
 				DB2F5EB01D461D57005815D7 /* AppDelegate.m in Sources */,
 				DB2F5EE01D461E67005815D7 /* NewVCViewController.m in Sources */,
 				DB2F5EAD1D461D57005815D7 /* main.m in Sources */,
