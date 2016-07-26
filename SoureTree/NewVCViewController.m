@@ -19,6 +19,12 @@
     
     [self sayHello];
     
+    [self saysome];
+}
+
+- (void)saysome
+{
+    NSLog(@"some some some");
 }
 
 - (void)sayHello
